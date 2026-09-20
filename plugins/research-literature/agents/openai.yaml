@@ -1,0 +1,7 @@
+interface:
+  display_name: "Research Literature"
+  short_description: "Search and analyze technical papers"
+  default_prompt: "Use $research-literature to find and compare recent mechanical fault-diagnosis papers."
+
+policy:
+  allow_implicit_invocation: true
