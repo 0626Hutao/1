@@ -1,0 +1,27 @@
+{
+  "name": "research-literature",
+  "version": "0.1.0",
+  "description": "Search, organize, and analyze current research literature for mechanical fault diagnosis and deep learning.",
+  "author": {
+    "name": "0626Hutao",
+    "url": "https://github.com/0626Hutao"
+  },
+  "repository": "https://github.com/0626Hutao/1",
+  "license": "MIT",
+  "keywords": ["literature", "mechanical-fault-diagnosis", "deep-learning", "open-access", "systematic-review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research Literature",
+    "shortDescription": "Find and analyze research literature.",
+    "longDescription": "Search multilingual scholarly sources, locate legal open-access copies, organize evidence, compare fault-diagnosis methods, and connect papers to code and datasets.",
+    "developerName": "0626Hutao",
+    "category": "Research",
+    "capabilities": ["Read", "Research"],
+    "websiteURL": "https://github.com/0626Hutao/1",
+    "defaultPrompt": [
+      "Use $research-literature to find recent bearing fault diagnosis papers.",
+      "Use $research-literature to compare deep learning methods and datasets.",
+      "Use $research-literature to build an evidence table for a systematic review."
+    ]
+  }
+}
